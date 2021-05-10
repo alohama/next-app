@@ -1,7 +1,6 @@
-import { FunctionComponentType } from '@interfaces/common/FunctionComponentType'
 import PrimaryNavbar from '../NavBar/Navbar'
 
-export function AppLayout({ children }: FunctionComponentType) {
+export function AppLayout({ children }) {
   return (
     <div className='flex font-Prompt'>
       <div className='flex-1 h-screen'>
